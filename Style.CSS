@@ -48,7 +48,7 @@ body{
 
 .name span{
     font-size: 30px;
-    color: red;
+    color: #FF3343;
 }
 
 .list-items{
@@ -151,8 +151,13 @@ body{
     align-items: center;
     margin: 25px 35px;
     width: 400px;
-    /* background-color: rgba(255, 255, 255, 0.4); */
     background-color: #1E1E1E;
+}
+
+.card:hover{
+
+    background: linear-gradient(to bottom, #FF3343 0%, #FF3343 15%, #1E1E1E 15%, #1E1E1E 100%);
+    transition-duration: 1s;
 }
 
 .project-title{
@@ -198,14 +203,12 @@ body{
     width: 200px;
     border-style: none;
     background-color: rgba(22, 22, 22, 0.552);
-    /* background-color: #FF3343; */
     font-size: 15px;
     color: #ffffff;
     border-radius: 0px 0px 0px 3px;
 }
 
 .git:hover{
-    /* background-color: rgba(0, 255, 255, 0.074); */
     background-color: #FF3343;
     transition-duration: 0.5s;
 }
@@ -221,7 +224,7 @@ body{
 }
 
 .project-link:hover{
-    background-color: #FF3343;;
+    background-color: #FF3343;
     transition-duration: 0.5s;
 }
 
