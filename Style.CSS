@@ -77,7 +77,6 @@ body{
 }
 
 .intro-bg{
-    margin-top: 100px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -113,9 +112,14 @@ body{
     background-color: #4d4d4d86;
 }
 
+.col-right{
+    /* background: #1e1e1e21; */
+    margin-left: 100px;
+}
+
 .me{
-    height: 300px;
-    margin: 0 50px;
+    margin-top: 15px;
+    width: 560px;
 }
 
 /* ----------------------------------Cards------------------------------------------ */
@@ -155,7 +159,6 @@ body{
 }
 
 .card:hover{
-
     background: linear-gradient(to bottom, #FF3343 0%, #FF3343 15%, #1E1E1E 15%, #1E1E1E 100%);
     transition-duration: 1s;
 }
